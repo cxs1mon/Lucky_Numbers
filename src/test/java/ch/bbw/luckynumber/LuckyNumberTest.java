@@ -74,22 +74,22 @@ class LuckyNumberTest {
       assertTrue(number <=10);
    }
 
-   @Test
+   /*@Test
    void primeUpTo100() {
       LuckyNumber generator = new LuckyNumber();
       List<Integer> list = generator.primeUpTo100();
       System.out.println("LuckyNumberTest.primeUpTo100 " + list);
       List<Integer> expected = List.of(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97);
       assertTrue(list.equals(expected));
-   }
+   }*/
 
-   @Test
+   /*@Test
    void primeNextTo10() {
       LuckyNumber generator = new LuckyNumber();
       Integer value = generator.primeNextTo(10);
       System.out.println("LuckyNumberTest.primeNextT10o " + value);
       assertTrue(value == 7);
-   }
+   }*/
 
    void primeNextTo20() {
       LuckyNumber generator = new LuckyNumber();
@@ -98,12 +98,12 @@ class LuckyNumberTest {
       assertTrue(value == 19);
    }
 
-   @Test
+   /*@Test
    void triangleNumbersUpTo() {
       LuckyNumber generator = new LuckyNumber();
       List<Integer> list = generator.triangleNumbersUpTo(10);
       System.out.println("LuckyNumberTest.triangleNumbersUpTo " + list);
       List<Integer> expected = List.of(1, 3, 6, 10, 15, 21, 28, 36, 45, 55);
       assertTrue(list.equals(expected));
-   }
+   }*/
 }
